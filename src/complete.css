@@ -1,0 +1,391 @@
+.containerC{
+    /* background-image: url("./gtbankOffice.jpg"); */
+    margin-top: 20px;
+    border-radius: 10%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    /* border: 1px solid orangered; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 615px;
+    background-color: white;
+    box-shadow:  2px 2px 5px 1px #000;
+    
+}
+
+.subcontainer{
+    width: 100%;
+    z-index: 1;
+}
+
+#wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cattention{
+  
+    /* padding-left: 25%;
+    padding-right: 10%; */
+    color: green;
+    font-size: 18px;
+    /* line-height: 18px; */
+    font-weight: 500;
+    text-align: center;
+    /* font-style: oblique; */
+}
+.Cattention2{
+    /* padding-left: 23%;
+    padding-right: 10%; */
+    padding-bottom: 10px;
+    color: green;
+    
+    font-size: 18px;
+    /* line-height: 18px; */
+    font-weight: 500;
+    /* font-style: oblique; */
+}
+
+
+.overlayC{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.1;
+    position: absolute;
+    border-radius: 10%;
+}
+
+
+
+
+.profilePics{
+    height: 100px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 100px;
+    /* box-shadow: 10px 10px 20px 5px rgba(23, 14, 11, 0.4); */
+    
+}
+.Cstart{
+    color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #E04406;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: center;
+    /* background-color: rgba(23, 14, 11, 0.4); */
+}
+
+.Adetails{
+    padding-top: 10px;
+    text-align: center;
+    color: rgba(23, 14, 11, 0.4);
+    font-size: 11px;
+    font-weight: bold;
+}
+.acct{
+    padding-top: 10px;
+    text-align: center;
+    color: rgba(23, 14, 11, 0.4);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.acctNum{
+    font-size: 18px;
+    text-align: center;
+    color: rgba(23, 14, 11, 0.8);
+    /* font-size: 11px; */
+    font-weight: bold;
+}
+
+
+
+      @media(min-width: 280px) {
+        .containerC{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 8.5vh;
+            height: 82vh;
+        }  
+           
+        .Hstart{
+            height: 38px;
+            margin-top: 40px;
+        }
+        .phone {
+            height: 38px;
+        }
+        .ha {
+            height: 38px;
+        }
+        .gender{
+            height: 38px;
+        }
+        .Hdetails, .Hdetails2, .Hdetails3 {
+            font-size: 12px;
+        }
+        .Hattention{
+            font-size: 17px;
+        }
+           
+           
+           }
+        
+        @media(max-width: 280px) {
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 8.5vh;
+                height: 82vh;
+            } 
+            
+            .Hstart{
+                height: 38px;
+                margin-top: 40px;
+            }
+            .phone {
+                height: 38px;
+            }
+            .ha {
+                height: 38px;
+            }
+            .gender{
+                height: 38px;
+            }
+            .Hattention{
+                font-size: 17px;
+            }
+            .Hdetails, .Hdetails2, .Hdetails3 {
+                font-size: 12px;
+            }
+           
+           
+           
+           }
+        
+        
+        @media(min-width: 320px) {
+           
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 2vh;
+                height: 95vh;
+            }
+            
+            
+           } 
+            
+           
+        
+           @media(min-width: 321px) {
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 5vh;
+                height: 615px;
+            }  
+           
+            .Hstart{
+                height: 50px;
+                margin-top: 50px;
+            }
+            .phone {
+                height: 50px;
+            }
+            .ha {
+                height: 50px;
+            }
+            .gender{
+                height: 50px;
+            }
+            .Hdetails, .Hdetails2, .Hdetails3 {
+                font-size: 13px;
+            }
+            .Hattention{
+                font-size: 22px;
+            }
+           
+           }
+        
+        
+        @media(min-width: 360px){
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 1.5vh;
+            }  
+           
+           }
+        
+        
+        @media(min-width: 375px) {
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 5vh;
+            } 
+            
+           }
+        
+        @media(min-width: 411px) {
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 11vh;
+            }    
+           }
+        
+        
+        @media(min-width: 414px) {
+            .containerC{
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 8.5vh;
+            }    
+           }
+           
+        @media(min-width: 450px) {
+            .containerC{
+                width: 70%;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-top: 8.5vh;
+            }    
+           }
+        
+        
+           
+        @media(min-width: 540px) {
+            .containerC{
+                width: 65%;
+                margin-left: 17.5%;
+                margin-right: 17.5%;
+                margin-top: 8vh;
+            }    
+           }  
+        
+        @media(min-width: 640px) {
+            .containerC{
+                width: 60%;
+                margin-left: 20%;
+                margin-right: 20%;
+                margin-top: 8.5vh;
+            }    
+           }
+        
+        @media(min-width: 705px) {
+            .containerC{
+                width: 55%;
+                margin-left: 22.5%;
+                margin-right: 22.5%;
+                margin-top: 8.5vh;
+            }    
+           }
+        
+        @media(min-width: 768px) {
+            .containerC{
+                
+        
+                width: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 20vh;
+                
+               
+            }    
+           }
+        
+        @media(min-width: 880px) {
+            .containerC{
+                
+        
+                width: 44%;
+                margin-left: 28%;
+                margin-right: 28%;
+                margin-top: 20vh;
+                
+               
+            }    
+           }
+           
+        
+           @media(min-width: 1024px){
+            .containerC{
+                width: 40%;
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-top: 24.5vh;
+                margin-bottom: 10vh;
+               
+            }    
+           }
+        
+        
+           @media(min-width: 1025px){
+            .containerC{
+                width: 40%;
+                margin-left: 30%;
+                margin-right: 30%;
+                margin-top: 10vh;
+                /* margin-bottom: 10vh; */
+               
+            }    
+           }
+        
+           @media(min-width: 1140px){
+            .containerC{
+                width: 35%;
+                margin-left: 32.5%;
+                margin-right: 32.5%;
+                margin-top: 5vh;
+                margin-bottom: 5vh;
+               
+            }    
+           }
+        
+           @media(min-width: 1380px){
+            .containerC{
+                width: 30%;
+                margin-left: 35%;
+                margin-right: 35%;
+                margin-top: 10vh;
+                /* margin-bottom: 10vh; */
+               
+            }    
+           }
+        
+           @media(min-width: 1580px){
+            .containerC{
+                width: 25%;
+                margin-left: 37.5%;
+                margin-right: 37.5%;
+                margin-top: 10vh;
+                /* margin-bottom: 10vh; */
+               
+            }    
+           }
+        

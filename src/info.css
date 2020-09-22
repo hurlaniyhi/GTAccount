@@ -1,0 +1,418 @@
+.container5{
+    background-image: url("./gtbankOffice.jpg");
+    margin-top: 20px;
+    border-radius: 10%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    /* border: 1px solid orangered; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 615px;
+    box-shadow:  2px 2px 5px 1px #000;
+    
+}
+
+.subcontainer{
+    width: 100%;
+    z-index: 1;
+}
+
+.Iattention{
+    padding-top: 20px;
+    padding-left: 14%;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 400;
+    /* font-style: oblique; */
+}
+
+input:focus, 
+button:focus,
+select:focus{
+    outline: none;
+}
+
+.Idetails{
+    padding-top: 30px;
+    padding-left: 14%;
+    color: whitesmoke;
+}
+
+.Idetails2{
+    /* padding-top: 40px; */
+    padding-left: 14%;
+    color: whitesmoke;
+}
+.Idetails3{
+    /* padding-top: 40px; */
+    padding-left: 14%;
+    color: whitesmoke;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 10%;
+}
+
+
+.fname{
+    color: whitesmoke;
+    width: 80%;
+    border-top-style: solid;
+    border-left-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: #E04406;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: rgba(23, 14, 11, 0.4);
+}
+.mname{
+    color: whitesmoke;
+    width: 80%;
+    border-top-style: solid;
+    border-left-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: #E04406;
+    margin-bottom: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(23, 14, 11, 0.4);
+    
+}
+
+.lname{
+    color: whitesmoke;
+    width: 80%;
+    border-top-style: solid;
+    border-left-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: #E04406;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(23, 14, 11, 0.4);
+    
+}
+
+
+/* input[type=date]:required:invalid::-webkit-datetime-edit{
+    color: transparent
+}
+input[type=date]:focus::-webkit-datetime-edit{
+    color: black !important;
+} */
+.Istart{
+    color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #E04406;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+    /* background-color: rgba(23, 14, 11, 0.4); */
+}
+
+
+
+@media(min-width: 280px) {
+    .container5{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 8.5vh;
+        height: 82vh;
+    }  
+       
+    .Istart{
+        height: 38px;
+        margin-top: 40px;
+    }
+    .fname {
+        height: 38px;
+    }
+    .lname {
+        height: 38px;
+    }
+    .mname{
+        height: 38px;
+    }
+    .Idetails, .Idetails2, .Idetails3 {
+        font-size: 12px;
+    }
+    .Iattention{
+        font-size: 17px;
+    }
+       
+       
+       }
+    
+    @media(max-width: 280px) {
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 8.5vh;
+            height: 82vh;
+        } 
+        
+        .Istart{
+            height: 38px;
+            margin-top: 40px;
+        }
+        .fname {
+            height: 38px;
+        }
+        .lname {
+            height: 38px;
+        }
+        .mname{
+            height: 38px;
+        }
+        .Iattention{
+            font-size: 17px;
+        }
+        .Idetails, .Idetails2, .Idetails3 {
+            font-size: 12px;
+        }
+       
+       
+       
+       }
+    
+    
+    @media(min-width: 320px) {
+       
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 2vh;
+            height: 95vh;
+        }
+        
+        
+       } 
+        
+       
+    
+       @media(min-width: 321px) {
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5vh;
+            height: 615px;
+        }  
+       
+        .Istart{
+            height: 50px;
+            margin-top: 50px;
+        }
+        .fname {
+            height: 50px;
+        }
+        .lname {
+            height: 50px;
+        }
+        .mname{
+            height: 50px;
+        }
+        .Idetails, .Idetails2, .Idetails3 {
+            font-size: 13px;
+        }
+        .Iattention{
+            font-size: 22px;
+        }
+       
+       }
+    
+    
+    @media(min-width: 360px){
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 1.5vh;
+        }  
+       
+       }
+    
+    
+    @media(min-width: 375px) {
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5vh;
+        } 
+        
+       }
+    
+    @media(min-width: 411px) {
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 11vh;
+        }    
+       }
+    
+    
+    @media(min-width: 414px) {
+        .container5{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 8.5vh;
+        }    
+       }
+       
+    @media(min-width: 450px) {
+        .container5{
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 8.5vh;
+        }    
+       }
+    
+    
+       
+    @media(min-width: 540px) {
+        .container5{
+            width: 65%;
+            margin-left: 17.5%;
+            margin-right: 17.5%;
+            margin-top: 8vh;
+        }    
+       }  
+    
+    @media(min-width: 640px) {
+        .container5{
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 8.5vh;
+        }    
+       }
+    
+    @media(min-width: 705px) {
+        .container5{
+            width: 55%;
+            margin-left: 22.5%;
+            margin-right: 22.5%;
+            margin-top: 8.5vh;
+        }    
+       }
+    
+    @media(min-width: 768px) {
+        .container5{
+            
+    
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 20vh;
+            
+           
+        }    
+       }
+    
+    @media(min-width: 880px) {
+        .container5{
+            
+    
+            width: 44%;
+            margin-left: 28%;
+            margin-right: 28%;
+            margin-top: 20vh;
+            
+           
+        }    
+       }
+       
+    
+       @media(min-width: 1024px){
+        .container5{
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 24.5vh;
+            margin-bottom: 10vh;
+           
+        }    
+       }
+    
+    
+       @media(min-width: 1025px){
+        .container5{
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 10vh;
+            /* margin-bottom: 10vh; */
+           
+        }    
+       }
+    
+       @media(min-width: 1140px){
+        .container5{
+            width: 35%;
+            margin-left: 32.5%;
+            margin-right: 32.5%;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+           
+        }    
+       }
+    
+       @media(min-width: 1380px){
+        .container5{
+            width: 30%;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-top: 10vh;
+            /* margin-bottom: 10vh; */
+           
+        }    
+       }
+    
+       @media(min-width: 1580px){
+        .container5{
+            width: 25%;
+            margin-left: 37.5%;
+            margin-right: 37.5%;
+            margin-top: 10vh;
+            /* margin-bottom: 10vh; */
+           
+        }    
+       }
+    
